@@ -1,20 +1,44 @@
 import React from 'react';
 
+import AboutPage from '../../components/about/about.component';
+
 import './homepage.styles.scss';
 
-const HomePage = () => (
-    <div className='index'>
-        <div className='left'>
-            <h1>Chia-Ying Ho</h1>
+import DATA from '../data';
+import avatar from '../../images/avatar.jpg';
 
-            <p>Computer Studies Student <br /> @ Georgian College</p>
-        </div>
 
-        <div className='right'>
+class HomePage extends React.Component {
 
-        </div>
+    constructor(props) {
+        super(props);
 
-    </div>
-);
+        this.state = {
+            data: DATA
+        };
+    }
+
+
+
+    render() {
+        const { data: { name, title, school, bio } } = this.state;
+        return (
+            <div className='homepage'>
+
+                <div className='left'>
+                    <h1>{name}</h1>
+                    <p>{title}<br /> @ {school}</p>
+                    <div className='image-container'>
+                        <img src={avatar} alt='avatar' />
+                    </div>
+                </div>
+
+                <div className='right'>
+                    <AboutPage bio={bio} />
+                </div>
+
+            </div>);
+    }
+};
 
 export default HomePage;
