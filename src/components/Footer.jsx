@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <div className="w-full p-4 pin-b flex mb-4">
         <a
-          href="https://linkedin.com/chiayingho"
+          href="https://www.linkedin.com/in/chiayingho/"
           className="text-gray-500 hover:text-gray-800 p-4"
         >
           <img
