@@ -7,7 +7,44 @@ const DATA = {
         'linkedIn': 'https://www.linkedin.com/in/chiayingho/',
         'github': 'https://github.com/iosum'
     },
-    avatar: '/public/images/avatar.jpg'
+    avatar: '/public/images/avatar.jpg',
+    experience: [
+        {
+            id: 1,
+            name: 'Volunteer Application',
+            title: 'Report-Writing Lead',
+            company: 'Georgian College',
+            city: 'Barrie',
+            province: 'Ontario',
+            country: 'Canada',
+            dateFrom: '01/2020',
+            dateTo: 'Present',
+            responsibility: [
+                {
+                    id: 2,
+                    responsibilityList: 'Implemented Java Table including loading data from MySQL'
+                },
+                {
+                    id: 3,
+                    responsibilityList: 'Customized reports with JasperReport library to meet client\'s needs'
+                },
+                {
+                    id: 4,
+                    responsibilityList: 'Printed reports to a printer with JasperViewer'
+                }
+            ],
+            tech: [
+                {
+                    id: 5,
+                    language: 'Java'
+                },
+                {
+                    id: 6,
+                    language: 'Swing'
+                }
+            ]
+        }
+    ]
 };
 
 export default DATA;

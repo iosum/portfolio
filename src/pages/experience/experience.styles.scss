@@ -1,0 +1,9 @@
+.experience {
+  margin: 20px;
+  height: 100%;
+
+  & ul,
+  & .places {
+    margin: 10px;
+  }
+}
