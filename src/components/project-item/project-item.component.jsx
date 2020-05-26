@@ -14,6 +14,7 @@ const ProjectItem = ({ name, description, link, buttonName }) => (
       <a
         href={link}
         target="_blank"
+        rel="noopener noreferrer"
       >{buttonName}</a>
     </button>
 

@@ -49,4 +49,16 @@
       font-size: 14px;
     }
   }
+
+  .social-medias {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 14px;
+    margin: 10px;
+
+    & a {
+      padding-right: 10px;
+    }
+  }
 }
