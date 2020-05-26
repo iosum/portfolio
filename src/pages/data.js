@@ -44,6 +44,22 @@ const DATA = {
                 }
             ]
         }
+    ],
+    projects: [
+        {
+            id: 7,
+            name: 'Crwn Clothing',
+            description: 'A small clothing site using React-Redux and firebase.',
+            link: 'https://crwn-clothing.chiayingho.com',
+            buttonName: 'Click here to play around!'
+        },
+        {
+            id: 8,
+            name: 'Boba Shop',
+            description: 'A small E-commerce website selling peral milk tea using ASP.NET Core 3.1.',
+            link: 'https://github.com/iosum/bobashop',
+            buttonName: 'Github'
+        }
     ]
 };
 

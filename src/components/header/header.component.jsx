@@ -10,7 +10,6 @@ const Header = () => {
     <div className='header'>
 
       <Link className='buttons' to='/' />
-
       <div className='options'>
 
 
