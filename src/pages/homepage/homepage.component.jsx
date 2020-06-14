@@ -27,7 +27,7 @@ class HomePage extends React.Component {
 
                 <div className='left'>
                     <h1>{name}</h1>
-                    <p>{title}<br /> @ {school}</p>
+                    <p>{title}<br />  {school}</p>
                     <div className='image-container'>
                         <img src={avatar} alt='avatar' />
                     </div>
